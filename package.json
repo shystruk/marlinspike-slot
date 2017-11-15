@@ -1,0 +1,35 @@
+{
+  "name": "marlinspike_slot",
+  "version": "0.0.1",
+  "description": "Full stack javascript application. Game which can display a random outcome generated on the server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shystruk/marlinspike-slot.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Vasyl Stokolosa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "mocha": "^3.1.2",
+    "supertest": "^2.0.1",
+    "webpack": "^1.13.3"
+  }
+}

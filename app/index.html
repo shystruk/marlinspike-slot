@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marlinspike Slot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link href="build/styles.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="game">
+        <h1 id="game-title">No Wins :)</h1>
+
+        <img src="images/loader.gif" id="game-loader"/>
+
+        <div class="game-result">
+            <div class="game-result-img"></div>
+            <div class="game-result-img"></div>
+            <div class="game-result-img"></div>
+        </div>
+
+        <div id="game-firstRun" class="game-firstRun">
+            <h3>Lets start the game</h3>
+            <div class="game-bounce">
+                <span>&#8659;</span>
+            </div>
+        </div>
+
+        <div class="game-startButton" id="game-start"></div>
+
+        <div class="game-bonus" id="game-bonus">
+            <h3>Congratulation you've got a bonus!</h3>
+            <h4 id="game-bonus-timer"></h4>
+        </div>
+    </div>
+
+    <script src="build/app.min.js"></script>
+</body>
+</html>
