@@ -1,6 +1,7 @@
 # **Marlinspike Slot** #
 Full stack javascript application. The game which can display a random outcome generated on the server. 
 
+![](demo.gif)
 
 Marlinspike Slot has been tested on major browsers Chrome/Opera/Firefox/Safari/IE and Device Mode (iPhone 5, Galaxy S5, iPad) on Chrome :)
 
