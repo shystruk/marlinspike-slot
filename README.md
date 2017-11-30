@@ -1,4 +1,6 @@
 # **Marlinspike Slot** #
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
 Full stack javascript application. The game which can display a random outcome generated on the server. 
 
 ![](demo.gif)
